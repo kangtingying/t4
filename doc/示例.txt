@@ -1,0 +1,51 @@
+################
+[code]:0xFF21
+[brief][CN]:EEPROM存储结构体读失败
+[brief][EN]:EEPROM fails to read
+[reason][CN]:1.EEPROM时序被打乱 2.EEPROM受干扰数据丢失
+[reason][EN]:1. EEPROM broken 2. EEPROM lose data
+[handle][CN]:重新下载参数，无效联系客服
+[handle][EN]:Rewrite Call MEGAROBO
+
+[detail1][0]:module1
+[detail1][1]:module2
+[detail1][2]:module3
+[detail1][3]:module4
+[detail1][4]:module5
+[detail1][5]:module6
+[detail1][6]:module7
+[detail1][7]:module8
+[detail1][8]:module9
+[detail1][9]:module10
+[detail1][10]:module11
+[detail1][11]:module12
+[detail1][12]:module13
+
+[level]:Error
+[response][00]:00
+[led][11]:11
+
+################
+[code]:0xFF23
+[brief][CN]:测距传感器数据异常
+[brief][EN]:Invalid distance sensor's data, sensor1, level1
+[reason][CN]:1.测距传感器内部损坏 2.测距传感器受干扰通信异常
+[reason][EN]:1. Distance sensor broken 2. Distance sensor communication fail
+[handle][CN]:联系客服
+[handle][EN]:Call MEGAROBO
+
+[detail1][0]:sensor1
+[detail1][1]:sensor2
+[detail1][2]:sensor3
+[detail1][3]:sensor4
+
+[detail2][0]:level1
+[detail2][1]:level2
+[detail2][2]:level3
+[detail2][3]:level4
+
+[level]:Error
+[response][00]:00
+[led][11]:11
+
+

@@ -1,0 +1,113 @@
+<map version="1.0.1">
+<!-- To view this file, download free mind mapping software FreeMind from http://freemind.sourceforge.net -->
+<node COLOR="#000000" CREATED="1560250784807" ID="ID_637813210" MODIFIED="1560251778230" TEXT="need">
+<font NAME="SansSerif" SIZE="20"/>
+<hook NAME="accessories/plugins/AutomaticLayout.properties"/>
+<node COLOR="#0033ff" CREATED="1560250803928" HGAP="36" ID="ID_1808774134" MODIFIED="1560251778181" POSITION="right" TEXT="&#x8fd0;&#x52a8;&#x8868;&#x5220;&#x9664;&#xff0c;&#x91cd;&#x547d;&#x540d;&#xff0c;&#x5907;&#x4efd;&#x6062;&#x590d;&#xff0c;&#x5bfc;&#x5165;&#x5bfc;&#x51fa;&#xff08;35,36&#xff09;" VSHIFT="-20">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1560250832408" ID="ID_25827958" MODIFIED="1560252082165" TEXT="MRH&#x6587;&#x4ef6;&#x64cd;&#x4f5c;API">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1560250899386" ID="ID_1257803640" MODIFIED="1560251778183" TEXT="&#x5220;&#x9664;">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1560250901335" ID="ID_479030713" MODIFIED="1560251778184" TEXT="&#x5927;&#x5c0f;">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1560250906116" ID="ID_876608553" MODIFIED="1560251778189" TEXT="&#x5217;&#x4e3e;">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1560250851623" HGAP="60" ID="ID_1561957968" MODIFIED="1560251778197" POSITION="right" TEXT="&#x542f;&#x52a8;&#x81ea;&#x68c0;&#xff08;28&#xff09;" VSHIFT="-52">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1560250859593" HGAP="41" ID="ID_416240581" MODIFIED="1560251778199" TEXT="MRQ&#x8bb0;&#x5f55;&#x81ea;&#x68c0;&#x72b6;&#x6001;" VSHIFT="-26">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+<node COLOR="#00b439" CREATED="1560250868887" HGAP="47" ID="ID_176962716" MODIFIED="1560251778200" TEXT="MRH&#x8bb0;&#x5f55;&#x81ea;&#x68c0;&#x72b6;&#x6001;&#xff0c;&#x8bfb;&#x53d6;MRQ&#x7684;&#x81ea;&#x68c0;&#x72b6;&#x6001;" VSHIFT="9">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1560251729481" HGAP="103" ID="ID_22624972" MODIFIED="1560251778202" POSITION="right" TEXT="&#x9519;&#x8bef;&#x8868;" VSHIFT="-10">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<arrowlink DESTINATION="ID_1358674850" ENDARROW="Default" ENDINCLINATION="190;0;" ID="Arrow_ID_343103566" STARTARROW="None" STARTINCLINATION="190;0;"/>
+<font NAME="SansSerif" SIZE="18"/>
+</node>
+<node COLOR="#0033ff" CREATED="1560250921863" HGAP="65" ID="ID_622073340" MODIFIED="1560251778209" POSITION="right" TEXT="&#x72b6;&#x6001;&#x62a5;&#x8b66;&#xff08;30,139,168&#xff09;" VSHIFT="-8">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1560250933769" HGAP="56" ID="ID_1746697988" MODIFIED="1560252041709" TEXT="MRH" VSHIFT="-9">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1560250937464" ID="ID_1358674850" MODIFIED="1560251778209" TEXT="&#x9519;&#x8bef;&#x7801;">
+<linktarget COLOR="#b0b0b0" DESTINATION="ID_1358674850" ENDARROW="Default" ENDINCLINATION="190;0;" ID="Arrow_ID_343103566" SOURCE="ID_22624972" STARTARROW="None" STARTINCLINATION="190;0;"/>
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1560250944887" ID="ID_123749096" MODIFIED="1560251778210" TEXT="&#x9519;&#x8bef;&#x8868;&#x8bfb;&#x53d6;&#xff08;243&#xff09;">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1560250952216" ID="ID_211944534" MODIFIED="1560252060791" TEXT="&#x7aef;&#x53e3;&#x6709;&#x65f6;&#x8fde;&#x63a5;&#x4e0d;&#x4e0a;&#xff08;253&#xff09;">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1560251666185" HGAP="102" ID="ID_5711262" MODIFIED="1560251778216" POSITION="right" TEXT="APP2.0 MRH&#x529f;&#x80fd;&#x9700;&#x6c42; &#xff08;136&#xff09;" VSHIFT="7">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+</node>
+<node COLOR="#0033ff" CREATED="1560251116648" HGAP="74" ID="ID_1366738073" MODIFIED="1560251778219" POSITION="right" TEXT="&#x95ea;&#x706f;&#x8bc6;&#x522b;&#xff08;53&#xff09;" VSHIFT="11">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1560251175960" ID="ID_1889521591" MODIFIED="1560251778220" TEXT="MRQ">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1560251178823" HGAP="79" ID="ID_501765195" MODIFIED="1560251778223" POSITION="right" TEXT="&#x6682;&#x505c;&#x8fd0;&#x884c;(249)" VSHIFT="31">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1560251192759" ID="ID_1291905360" MODIFIED="1560251778223" TEXT="MRQ">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1560251443865" HGAP="70" ID="ID_1814661143" MODIFIED="1560251778226" POSITION="right" TEXT="MRQ BOOT&#x4e0b;&#x7684;&#x5347;&#x7ea7;(236)" VSHIFT="24">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1560251461368" ID="ID_1629594362" MODIFIED="1560251778228" TEXT="MRH(236)">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1560251538984" HGAP="65" ID="ID_698064656" MODIFIED="1560251986876" POSITION="right" TEXT="&#x5f53;&#x524d;&#x7535;&#x6d41;(258)" VSHIFT="18">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1560251546682" ID="ID_1325845650" MODIFIED="1560251778230" TEXT="MRQ">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+</node>
+</node>
+<node COLOR="#0033ff" CREATED="1560251804857" HGAP="48" ID="ID_1791813098" MODIFIED="1560251984668" POSITION="right" TEXT="suggestion" VSHIFT="18">
+<edge STYLE="sharp_bezier" WIDTH="8"/>
+<font NAME="SansSerif" SIZE="18"/>
+<node COLOR="#00b439" CREATED="1560251845929" ID="ID_775219665" MODIFIED="1560251849430" TEXT="MRH">
+<edge STYLE="bezier" WIDTH="thin"/>
+<font NAME="SansSerif" SIZE="16"/>
+<node COLOR="#990000" CREATED="1560251850540" ID="ID_982369818" MODIFIED="1560251853942" TEXT="183">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1560251942537" ID="ID_1666129818" MODIFIED="1560251946038" TEXT="74,75">
+<font NAME="SansSerif" SIZE="14"/>
+</node>
+<node COLOR="#990000" CREATED="1560251991736" ID="ID_1847562741" MODIFIED="1560251993332" TEXT="257">
+<font NAME="SansSerif" SIZE="14"/>
+<node COLOR="#111111" CREATED="1560251996170" ID="ID_1425854501" MODIFIED="1560252007575" TEXT="&#x53ef;&#x80fd;&#x5f71;&#x54cd;&#x5347;&#x7ea7;"/>
+</node>
+</node>
+</node>
+</node>
+</map>

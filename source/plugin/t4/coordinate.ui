@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Coordinate</class>
+ <widget class="QWidget" name="Coordinate">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>263</width>
+    <height>269</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="toolTip">
+      <string>Coordinate</string>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="tab">
+      <attribute name="title">
+       <string>Tool</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="CoordPara" name="coordTool" native="true"/>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_2">
+      <attribute name="title">
+       <string>Object</string>
+      </attribute>
+      <layout class="QVBoxLayout" name="verticalLayout_4">
+       <item>
+        <widget class="CoordPara" name="coordObj" native="true"/>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_4">
+      <attribute name="title">
+       <string>User</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="0" column="0">
+        <widget class="QComboBox" name="cmbUserCoord">
+         <property name="toolTip">
+          <string>User coordinate</string>
+         </property>
+         <item>
+          <property name="text">
+           <string>User1</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>User2</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>User3</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>User4</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>User5</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>User6</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>User7</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>User9</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>User10</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="1" column="0" colspan="2">
+        <widget class="CoordPara" name="coordUser" native="true"/>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>CoordPara</class>
+   <extends>QWidget</extends>
+   <header>coordpara.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>

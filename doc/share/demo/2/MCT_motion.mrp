@@ -1,0 +1,204 @@
+[MRX-T4]
+#! section0
+[section]
+[valid,id,type,x,y,z,w,h,v,mode,do,delay,percent,realW,realH,comment]
+1,1,PA,200,-200,330,0,0,50,0,0,0,20,36,12,A
+#! section1
+[section]
+[valid,id,type,x,y,z,w,h,v,mode,do,delay,percent,realW,realH,comment]
+1,1,PRLA,0,0,-50,0,0,50,0,0,0,20,36,12,M
+1,2,PRLA,64,0,-50,0,0,50,0,0,0,20,36,12,M
+1,0,PRLA,0,17,-50,0,0,50,0,0,0,20,36,12,M
+1,0,PRLA,64,29,-50,0,0,50,0,0,0,20,36,12,M
+1,0,PRLA,0,34,-50,0,0,50,0,0,0,20,36,12,M
+1,0,PRLA,0,34,0,0,0,50,0,0,0,20,36,12,M
+#! section2
+[section]
+[valid,id,type,x,y,z,w,h,v,mode,do,delay,percent,realW,realH,comment]
+1,1,PRLA,0,90,0,0,0,50,0,0,0,20,36,12,E
+1,3,PRLA,0,90,-50,0,0,50,0,0,0,20,36,12,E
+1,0,PRLA,0,51,-50,0,0,50,0,0,0,20,36,12,E
+1,0,PRLA,64,51,-50,0,0,50,0,0,0,20,36,12,E
+1,0,PRLA,64,90,-50,0,0,50,0,0,0,20,36,12,E
+1,0,PRLA,64,90,0,0,0,50,0,0,0,20,36,12,E
+1,0,PRLA,37,87,0,0,0,50,0,0,0,20,36,12,E
+1,0,PRLA,37,87,-50,0,0,50,0,0,0,20,36,12,E
+1,0,PRLA,37,51,-50,0,0,50,0,0,0,20,36,12,E
+1,0,PRLA,37,51,0,0,0,50,0,0,0,20,36,12,E
+#! section3
+[section]
+[valid,id,type,x,y,z,w,h,v,mode,do,delay,percent,realW,realH,comment]
+1,1,PRLA,0,127,0,0,0,50,0,0,0,20,36,12,G
+1,4,PRLA,0,127,-50,0,0,50,0,0,0,20,36,12,G
+1,0,PRLA,0,112,-50,0,0,50,0,0,0,20,36,12,G
+1,0,PRLA,17,99,-50,0,0,50,0,0,0,20,36,12,G
+1,0,PRLA,41,99,-50,0,0,50,0,0,0,20,36,12,G
+1,0,PRLA,64,113,-50,0,0,50,0,0,0,20,36,12,G
+1,0,PRLA,64,127,-50,0,0,50,0,0,0,20,36,12,G
+1,0,PRLA,41,139,-50,0,0,50,0,0,0,20,36,12,G
+1,0,PRLA,41,139,0,0,0,50,0,0,0,20,36,12,G
+1,0,PRLA,0,139,0,0,0,50,0,0,0,20,36,12,G
+1,0,PRLA,0,139,-50,0,0,50,0,0,0,20,36,12,G
+1,0,PRLA,32,139,-50,0,0,50,0,0,0,20,36,12,G
+1,0,PRLA,32,119,-50,0,0,50,0,0,0,20,36,12,G
+1,0,PRLA,32,119,0,0,0,50,0,0,0,20,36,12,G
+#! section4
+[section]
+[valid,id,type,x,y,z,w,h,v,mode,do,delay,percent,realW,realH,comment]
+1,1,PRLA,0,146,0,0,0,50,0,0,0,20,36,12,A
+1,5,PRLA,0,146,-50,0,0,50,0,0,0,20,36,12,A
+1,0,PRLA,64,164,-50,0,0,50,0,0,0,20,36,12,A
+1,0,PRLA,0,181,-50,0,0,50,0,0,0,20,36,12,A
+1,0,PRLA,0,181,0,0,0,50,0,0,0,20,36,12,A
+1,0,PRLA,20,175,0,0,0,50,0,0,0,20,36,12,A
+1,0,PRLA,20,175,-50,0,0,50,0,0,0,20,36,12,A
+1,0,PRLA,20,152,-50,0,0,50,0,0,0,20,36,12,A
+1,0,PRLA,20,152,0,0,0,50,0,0,0,20,36,12,A
+#! section5
+[section]
+[valid,id,type,x,y,z,w,h,v,mode,do,delay,percent,realW,realH,comment]
+1,1,PRLA,0,197,0,0,0,50,0,0,0,20,36,12,R
+1,6,PRLA,0,197,-50,0,0,50,0,0,0,20,36,12,R
+1,0,PRLA,64,197,-50,0,0,50,0,0,0,20,36,12,R
+1,0,PRLA,64,220,-50,0,0,50,0,0,0,20,36,12,R
+1,0,PRLA,53,237,-50,0,0,50,0,0,0,20,36,12,R
+1,0,PRLA,40,237,-50,0,0,50,0,0,0,20,36,12,R
+1,0,PRLA,28,226,-50,0,0,50,0,0,0,20,36,12,R
+1,0,PRLA,0,240,-50,0,0,50,0,0,0,20,36,12,R
+1,0,PRLA,0,240,0,0,0,50,0,0,0,20,36,12,R
+1,0,PRLA,28,226,0,0,0,50,0,0,0,20,36,12,R
+1,0,PRLA,28,226,-50,0,0,50,0,0,0,20,36,12,R
+1,0,PRLA,28,197,-50,0,0,50,0,0,0,20,36,12,R
+1,0,PRLA,28,197,0,0,0,50,0,0,0,20,36,12,R
+#! section6
+[section]
+[valid,id,type,x,y,z,w,h,v,mode,do,delay,percent,realW,realH,comment]
+1,1,PRLA,0,273,0,0,0,50,0,0,0,20,36,12,O
+1,7,PRLA,0,273,-50,0,0,50,0,0,0,20,36,12,O
+1,0,PRLA,0,258,-50,0,0,50,0,0,0,20,36,12,O
+1,0,PRLA,22,245,-50,0,0,50,0,0,0,20,36,12,O
+1,0,PRLA,45,245,-50,0,0,50,0,0,0,20,36,12,O
+1,0,PRLA,64,260,-50,0,0,50,0,0,0,20,36,12,O
+1,0,PRLA,64,273,-50,0,0,50,0,0,0,20,36,12,O
+1,0,PRLA,45,288,-50,0,0,50,0,0,0,20,36,12,O
+1,0,PRLA,22,288,-50,0,0,50,0,0,0,20,36,12,O
+1,0,PRLA,0,273,-50,0,0,50,0,0,0,20,36,12,O
+1,0,PRLA,0,273,0,0,0,50,0,0,0,20,36,12,O
+#! section7
+[section]
+[valid,id,type,x,y,z,w,h,v,mode,do,delay,percent,realW,realH,comment]
+1,1,PRLA,33,326,0,0,0,50,0,0,0,20,36,12,B
+1,8,PRLA,33,326,-50,0,0,50,0,0,0,20,36,12,B
+1,0,PRLA,23,337,-50,0,0,50,0,0,0,20,36,12,B
+1,0,PRLA,13,337,-50,0,0,50,0,0,0,20,36,12,B
+1,0,PRLA,0,323,-50,0,0,50,0,0,0,20,36,12,B
+1,0,PRLA,0,295,-50,0,0,50,0,0,0,20,36,12,B
+1,0,PRLA,64,295,-50,0,0,50,0,0,0,20,36,12,B
+1,0,PRLA,64,321,-50,0,0,50,0,0,0,20,36,12,B
+1,0,PRLA,52,335,-50,0,0,50,0,0,0,20,36,12,B
+1,0,PRLA,42,335,-50,0,0,50,0,0,0,20,36,12,B
+1,0,PRLA,33,326,-50,0,0,50,0,0,0,20,36,12,B
+1,0,PRLA,33,295,-50,0,0,50,0,0,0,20,36,12,B
+1,0,PRLA,33,295,0,0,0,50,0,0,0,20,36,12,B
+#! section8
+[section]
+[valid,id,type,x,y,z,w,h,v,mode,do,delay,percent,realW,realH,comment]
+1,1,PRLA,0,372,0,0,0,50,0,0,0,20,36,12,O
+1,9,PRLA,0,372,-50,0,0,50,0,0,0,20,36,12,O
+1,0,PRLA,0,356,-50,0,0,50,0,0,0,20,36,12,O
+1,0,PRLA,17,343,-50,0,0,50,0,0,0,20,36,12,O
+1,0,PRLA,40,343,-50,0,0,50,0,0,0,20,36,12,O
+1,0,PRLA,64,356,-50,0,0,50,0,0,0,20,36,12,O
+1,0,PRLA,64,372,-50,0,0,50,0,0,0,20,36,12,O
+1,0,PRLA,40,385,-50,0,0,50,0,0,0,20,36,12,O
+1,0,PRLA,17,385,-50,0,0,50,0,0,0,20,36,12,O
+1,0,PRLA,0,372,-50,0,0,50,0,0,0,20,36,12,O
+1,0,PRLA,0,372,0,0,0,50,0,0,0,20,36,12,O
+#! section9
+[section]
+[valid,id,type,x,y,z,w,h,v,mode,do,delay,percent,realW,realH,comment]
+0,1,PA,479.106,-38.57,3,0,-30,50,0,0,0,20,36,12,C-3
+#! section10
+[section]
+[valid,id,type,x,y,z,w,h,v,mode,do,delay,percent,realW,realH,comment]
+1,1,PA,432.106,47.57,321.496,0,30,50,0,0,0,20,36,12,C-5
+#! section11
+[section]
+[valid,id,type,x,y,z,w,h,v,mode,do,delay,percent,realW,realH,comment]
+1,1,PA,432.106,47.57,224.496,0,-30,50,0,0,0,20,36,12,D0
+#! section12
+[section]
+[valid,id,type,x,y,z,w,h,v,mode,do,delay,percent,realW,realH,comment]
+1,1,PA,432.106,47.57,321.496,0,30,50,0,0,0,20,36,12,D3
+#! section13
+[section]
+[valid,id,type,x,y,z,w,h,v,mode,do,delay,percent,realW,realH,comment]
+1,1,PA,331.106,47.57,321.496,0,-30,50,0,0,0,20,36,12,D5
+#! section14
+[section]
+[valid,id,type,x,y,z,w,h,v,mode,do,delay,percent,realW,realH,comment]
+1,1,PA,331.106,47.57,224.496,0,30,50,0,0,0,20,36,12,D-3
+#! section15
+[section]
+[valid,id,type,x,y,z,w,h,v,mode,do,delay,percent,realW,realH,comment]
+1,1,PA,331.106,47.57,321.496,0,-30,50,0,0,0,20,36,12,D-5
+#! section16
+[section]
+[valid,id,type,x,y,z,w,h,v,mode,do,delay,percent,realW,realH,comment]
+1,1,PA,277.106,-37.57,321.496,0,30,50,0,0,0,20,36,12,E0
+#! section17
+[section]
+[valid,id,type,x,y,z,w,h,v,mode,do,delay,percent,realW,realH,comment]
+1,1,PA,277.106,-37.57,224.496,0,-30,50,0,0,0,20,36,12,E3
+#! section18
+[section]
+[valid,id,type,x,y,z,w,h,v,mode,do,delay,percent,realW,realH,comment]
+1,1,PA,277.106,-37.57,321.496,0,30,50,0,0,0,20,36,12,E5
+#! section19
+[section]
+[valid,id,type,x,y,z,w,h,v,mode,do,delay,percent,realW,realH,comment]
+1,1,PA,326.106,-122.57,321.496,0,-30,50,0,0,0,20,36,12,E-3
+#! section20
+[section]
+[valid,id,type,x,y,z,w,h,v,mode,do,delay,percent,realW,realH,comment]
+1,1,PA,326.106,-122.57,224.496,0,30,50,0,0,0,20,36,12,E-5
+#! section21
+[section]
+[valid,id,type,x,y,z,w,h,v,mode,do,delay,percent,realW,realH,comment]
+1,1,PA,326.106,-122.57,321.496,0,-30,50,0,0,0,20,36,12,F0
+#! section22
+[section]
+[valid,id,type,x,y,z,w,h,v,mode,do,delay,percent,realW,realH,comment]
+1,1,PA,428.106,-122.57,321.496,0,30,50,0,0,0,20,36,12,F3
+#! section23
+[section]
+[valid,id,type,x,y,z,w,h,v,mode,do,delay,percent,realW,realH,comment]
+1,1,PA,428.106,-122.57,224.496,0,-30,50,0,0,0,20,36,12,F5
+#! section24
+[section]
+[valid,id,type,x,y,z,w,h,v,mode,do,delay,percent,realW,realH,comment]
+1,1,PA,428.106,-122.57,321.496,0,30,50,0,0,0,20,36,12,F-3
+#! section25
+[section]
+[valid,id,type,x,y,z,w,h,v,mode,do,delay,percent,realW,realH,comment]
+1,1,PA,452.106,-178.57,321.496,0,-30,50,0,0,0,20,36,12,F-5
+#! section26
+[section]
+[valid,id,type,x,y,z,w,h,v,mode,do,delay,percent,realW,realH,comment]
+1,1,PA,452.106,-178.57,219.496,0,30,50,0,0,0,20,36,12,G0
+#! section27
+[section]
+[valid,id,type,x,y,z,w,h,v,mode,do,delay,percent,realW,realH,comment]
+1,1,PA,452.106,-178.57,321.496,0,-30,50,0,0,0,20,36,12,G3
+#! section28
+[section]
+[valid,id,type,x,y,z,w,h,v,mode,do,delay,percent,realW,realH,comment]
+1,1,PA,84.106,-199.57,321.496,0,30,50,0,0,0,20,36,12,G5
+#! section29
+[section]
+[valid,id,type,x,y,z,w,h,v,mode,do,delay,percent,realW,realH,comment]
+1,1,PA,84.106,-199.57,224.496,0,-30,50,0,0,0,20,36,12,G-3
+#! section30
+[section]
+[valid,id,type,x,y,z,w,h,v,mode,do,delay,percent,realW,realH,comment]
+1,1,PA,250,0,518,0,0,5,0,0,0,2,3.6,1.2,G-5

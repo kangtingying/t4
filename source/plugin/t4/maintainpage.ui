@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MaintainPage</class>
+ <widget class="QWidget" name="MaintainPage">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>463</width>
+    <height>245</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QTabWidget" name="tabWidget">
+     <property name="currentIndex">
+      <number>4</number>
+     </property>
+     <widget class="QWidget" name="tab_3">
+      <attribute name="title">
+       <string>Demo</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="0" column="1">
+        <widget class="QPushButton" name="btnDemo">
+         <property name="maximumSize">
+          <size>
+           <width>100</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="toolTip">
+          <string>Run the slected demo</string>
+         </property>
+         <property name="text">
+          <string>start</string>
+         </property>
+         <property name="icon">
+          <iconset resource="../../../res/res.qrc">
+           <normaloff>:/res/image/icon/play-circle.png</normaloff>:/res/image/icon/play-circle.png</iconset>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <widget class="QComboBox" name="cmbDemo">
+         <item>
+          <property name="text">
+           <string>Demo1</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Demo2</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="1" column="0" colspan="3">
+        <widget class="QTextEdit" name="txtDemoInfo">
+         <property name="enabled">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="3">
+        <widget class="QLabel" name="label_3">
+         <property name="sizePolicy">
+          <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+           <horstretch>1</horstretch>
+           <verstretch>0</verstretch>
+          </sizepolicy>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="scaledContents">
+          <bool>false</bool>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="2" colspan="2">
+        <spacer name="horizontalSpacer">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab">
+      <attribute name="title">
+       <string>Operate</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_3">
+       <item row="5" column="0" colspan="3">
+        <spacer name="verticalSpacer">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>355</width>
+           <height>149</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="1" column="0">
+        <widget class="QPushButton" name="btnHistory">
+         <property name="toolTip">
+          <string>Show the version history</string>
+         </property>
+         <property name="text">
+          <string>History</string>
+         </property>
+         <property name="icon">
+          <iconset resource="../../../res/res.qrc">
+           <normaloff>:/res/image/icon/history.png</normaloff>:/res/image/icon/history.png</iconset>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="2">
+        <spacer name="horizontalSpacer_3">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="2" column="0">
+        <widget class="QPushButton" name="btnFold">
+         <property name="toolTip">
+          <string>Fold the device for package</string>
+         </property>
+         <property name="text">
+          <string>Fold</string>
+         </property>
+         <property name="icon">
+          <iconset resource="../../../res/res.qrc">
+           <normaloff>:/res/image/icon/201.png</normaloff>:/res/image/icon/201.png</iconset>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <widget class="QPushButton" name="btnUpdate">
+         <property name="toolTip">
+          <string>Update the device</string>
+         </property>
+         <property name="text">
+          <string>Update</string>
+         </property>
+         <property name="icon">
+          <iconset resource="../../../res/res.qrc">
+           <normaloff>:/res/image/icon/upgrade.png</normaloff>:/res/image/icon/upgrade.png</iconset>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QPushButton" name="btnReset">
+         <property name="toolTip">
+          <string>Restore the factory settings</string>
+         </property>
+         <property name="text">
+          <string>Reset</string>
+         </property>
+         <property name="icon">
+          <iconset resource="../../../res/res.qrc">
+           <normaloff>:/res/image/icon/ErrorSetting.png</normaloff>:/res/image/icon/ErrorSetting.png</iconset>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="0">
+        <widget class="QPushButton" name="btnBuild">
+         <property name="toolTip">
+          <string>Match the components of the device</string>
+         </property>
+         <property name="text">
+          <string>Build</string>
+         </property>
+         <property name="icon">
+          <iconset resource="../../../res/res.qrc">
+           <normaloff>:/res/image/icon/build.png</normaloff>:/res/image/icon/build.png</iconset>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_5">
+      <attribute name="title">
+       <string>Backup</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_5">
+       <item row="4" column="0" colspan="2">
+        <widget class="QPushButton" name="btnClearBackup">
+         <property name="toolTip">
+          <string>Clear all backups</string>
+         </property>
+         <property name="text">
+          <string>Clear Backup</string>
+         </property>
+         <property name="icon">
+          <iconset resource="../../../res/res.qrc">
+           <normaloff>:/res/image/icon/trash.png</normaloff>:/res/image/icon/trash.png</iconset>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0" rowspan="2" colspan="2">
+        <widget class="QPushButton" name="btnRestore">
+         <property name="toolTip">
+          <string>Restore the settings from backup</string>
+         </property>
+         <property name="text">
+          <string>Restore</string>
+         </property>
+         <property name="icon">
+          <iconset resource="../../../res/res.qrc">
+           <normaloff>:/res/image/icon/guanlianshebei.png</normaloff>:/res/image/icon/guanlianshebei.png</iconset>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="0" colspan="2">
+        <widget class="QPushButton" name="btnBackup">
+         <property name="toolTip">
+          <string>Backup the device settings</string>
+         </property>
+         <property name="text">
+          <string>Backup</string>
+         </property>
+         <property name="icon">
+          <iconset resource="../../../res/res.qrc">
+           <normaloff>:/res/image/icon/fuzhi.png</normaloff>:/res/image/icon/fuzhi.png</iconset>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="0">
+        <spacer name="verticalSpacer_4">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="3" column="0" colspan="2">
+        <widget class="QPushButton" name="btnExport">
+         <property name="toolTip">
+          <string>Export the setting to local disk</string>
+         </property>
+         <property name="text">
+          <string>Export</string>
+         </property>
+         <property name="icon">
+          <iconset resource="../../../res/res.qrc">
+           <normaloff>:/res/image/icon/icon_baocun.png</normaloff>:/res/image/icon/icon_baocun.png</iconset>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="2">
+        <spacer name="horizontalSpacer_5">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_2">
+      <attribute name="title">
+       <string>Power</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_2">
+       <item row="0" column="0">
+        <widget class="QPushButton" name="btnRestart">
+         <property name="toolTip">
+          <string>Reboot the device</string>
+         </property>
+         <property name="text">
+          <string>Restart</string>
+         </property>
+         <property name="icon">
+          <iconset resource="../../../res/res.qrc">
+           <normaloff>:/res/image/icon/332.png</normaloff>:/res/image/icon/332.png</iconset>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QPushButton" name="btnShutDown">
+         <property name="toolTip">
+          <string>Shutdown the device</string>
+         </property>
+         <property name="text">
+          <string>Shutdown</string>
+         </property>
+         <property name="icon">
+          <iconset resource="../../../res/res.qrc">
+           <normaloff>:/res/image/icon/246.png</normaloff>:/res/image/icon/246.png</iconset>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="0">
+        <spacer name="verticalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="0" column="1">
+        <spacer name="horizontalSpacer_2">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="tab_4">
+      <attribute name="title">
+       <string>User</string>
+      </attribute>
+      <layout class="QGridLayout" name="gridLayout_4">
+       <item row="3" column="0">
+        <widget class="QComboBox" name="cmbRstUser">
+         <property name="toolTip">
+          <string>Reset user</string>
+         </property>
+         <item>
+          <property name="text">
+           <string>Operator</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Administrator</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QPushButton" name="btnChange">
+         <property name="toolTip">
+          <string>Change password</string>
+         </property>
+         <property name="text">
+          <string>Change Pw</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="1">
+        <spacer name="verticalSpacer_3">
+         <property name="orientation">
+          <enum>Qt::Vertical</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>20</width>
+           <height>40</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="1" column="3">
+        <spacer name="horizontalSpacer_4">
+         <property name="orientation">
+          <enum>Qt::Horizontal</enum>
+         </property>
+         <property name="sizeHint" stdset="0">
+          <size>
+           <width>40</width>
+           <height>20</height>
+          </size>
+         </property>
+        </spacer>
+       </item>
+       <item row="3" column="1">
+        <widget class="QPushButton" name="btnResetPw">
+         <property name="toolTip">
+          <string>Reset the password</string>
+         </property>
+         <property name="text">
+          <string>Reset Pw</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="label">
+         <property name="text">
+          <string>User</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QComboBox" name="cmbUser">
+         <property name="toolTip">
+          <string>Current user role</string>
+         </property>
+         <item>
+          <property name="text">
+           <string>Operator</string>
+          </property>
+         </item>
+         <item>
+          <property name="text">
+           <string>Administrator</string>
+          </property>
+         </item>
+        </widget>
+       </item>
+       <item row="0" column="0">
+        <widget class="QCheckBox" name="chkAutoLogin">
+         <property name="toolTip">
+          <string>Auto login</string>
+         </property>
+         <property name="layoutDirection">
+          <enum>Qt::RightToLeft</enum>
+         </property>
+         <property name="text">
+          <string>Auto login</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="2" rowspan="4">
+        <widget class="QLabel" name="label_2">
+         <property name="maximumSize">
+          <size>
+           <width>100</width>
+           <height>100</height>
+          </size>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="../../../res/res.qrc">:/res/image/icon/51.png</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>true</bool>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../../../res/res.qrc"/>
+ </resources>
+ <connections/>
+</ui>

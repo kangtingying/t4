@@ -1,0 +1,621 @@
+﻿################
+[code]:0x0001
+[brief][CN]:软件错误,升级时检测到一个内部固件错误
+[brief][EN]:Error occurred in updating
+[reason][CN]:固件被损坏,或者固件与当前设备硬件不匹配
+[reason][EN]:Firmware is corrupted. Firmware is mismatched with the hardware.
+[handle][CN]:重新更新固件
+[handle][EN]:Update the frimware again
+[level]:Error
+[response][00]:00
+[led][11]:11
+
+################
+[code]:0x0002
+[brief][CN]:在检查默认参数文件时,检测到参数文件无效
+[brief][EN]:Invalid configuration file
+[reason][CN]:参数文件不存在,或参数文件格式不正确
+[reason][EN]:Configuration is missed. Invalid format.
+[handle][CN]:重新生成配置文件
+[handle][EN]:Make a configuration
+[level]:Error
+[response][00]:00
+[led][11]:11
+
+################
+[code]:0x0003
+[brief][CN]:升级MRHT固件过程中出现错误
+[brief][EN]:Error occurred in MRH updating
+[reason][CN]:升级过程中出现了未知错误
+[reason][EN]:Error in updating.
+[handle][CN]:重新升级,联系MEGAROBO客服
+[handle][EN]:Update, call MEGAROBO
+[level]:Error
+[response][00]:00
+[led][00]:00
+
+################
+[code]:0x0004
+[brief][CN]:自检内部硬件识别错误,不支持的硬件.
+[brief][EN]:Invalid hardware
+[reason][CN]:不支持的硬件版本
+[reason][EN]:The HW version isn't compatible.
+[handle][CN]:联系MEGAROBO客服
+[handle][EN]:Call MEGAROBO
+[level]:Error
+[response][00]:00
+[led][11]:11
+
+################
+[code]:0x0005
+[brief][CN]:路径规划时出错
+[brief][EN]:Path planning fail
+[reason][CN]:路径规划时,发生了未知错误
+[reason][EN]:Error in path planning.
+[handle][CN]:联系MEGAROBO客服
+[handle][EN]:Call MEGAROBO
+[level]:Error
+[response][00]:00
+[led][11]:11
+
+################
+[code]:0x0006
+[brief][CN]:参数文件内容有错误.
+[brief][EN]:Configuration's contents has error
+[reason][CN]:参数内容不合法或生成的配置文件被破坏
+[reason][EN]:Invalid configuration content.
+[handle][CN]:重新生成配置文件
+[handle][EN]:Make a configuration
+[level]:Error
+[response][00]:00
+[led][11]:11
+
+################
+[code]:0x0007
+[brief][CN]:参数文件不存在
+[brief][EN]:Configuration does not exist
+[reason][CN]:系统中没有参数文件
+[reason][EN]:Configuration is missed.
+[handle][CN]:生成配置文件
+[handle][EN]:Make a configuration
+[level]:Warning
+[response][00]:00
+[led][00]:00
+
+################
+[code]:0x0008
+[brief][CN]:自检时背板没有启动
+[brief][EN]:Back board fails to startup
+[reason][CN]:背板损坏
+[reason][EN]:Back borad is broken.
+[handle][CN]:联系MEGAROBO客服
+[handle][EN]:Call MEGAROBO
+[level]:Error
+[response][00]:00
+[led][10]:10
+
+################
+[code]:0x0009
+[brief][CN]:超正向软件限位
+[brief][EN]:Over soft limit upper range 
+[reason][CN]:规划的目标位置超出工作空间
+[reason][EN]:Aim is over the workspace.
+[handle][CN]:调整参数,重新规划
+[handle][EN]:Edit the aim
+[level]:Warning
+[response][11]:11
+[led][10]:10
+
+################
+[code]:0x000A
+[brief][CN]:超负向软件限位
+[brief][EN]:Over soft limit lower range 
+[reason][CN]:规划的目标位置超出工作空间
+[reason][EN]:Aim is over the workspace.
+[handle][CN]:调整参数,重新规划
+[handle][EN]:Edit the aim
+[level]:Warning
+[response][11]:11
+[led][10]:10
+
+################
+[code]:0x000B
+[brief][CN]:本体持续运动时,超出速度上限
+[brief][EN]:Over velocity upper range
+[reason][CN]:本体运动在PVT规划时,规划出的PVT速度超出了机械性能的上限.
+[reason][EN]:The PVT's velocity is over the limit.
+[handle][CN]:降低速度,重新规划
+[handle][EN]:Slow down
+[level]:Warning
+[response][11]:11
+[led][10]:10
+
+################
+[code]:0x000C
+[brief][CN]:自检时背板程序与主板程序不匹配.
+[brief][EN]:Back board firmware is mismatched
+[reason][CN]:背板程序与主板程序没有同步更新.
+[reason][EN]:Back borad firmware is mismatched with the main board firmware.
+[handle][CN]:重新同步更新背板程序和主板程序 
+[handle][EN]:Update the firmwares of back board and mainboard
+[level]:Error
+[response][00]:00
+[led][11]:11
+
+################
+[code]:0x0011
+[brief][CN]:监控检测到CPU温度超出允许的范围
+[brief][EN]:CPU temperature over range
+[reason][CN]:CPU温度过高
+[reason][EN]:CPU is too hot.
+[handle][CN]:
+[handle][EN]:
+[level]:Warning
+[response][00]:00
+[led][00]:00
+
+################
+[code]:0x0012
+[brief][CN]:内存使用超过80%.
+[brief][EN]:Memory usage over range
+[reason][CN]:程序中有内存泄漏,或应用程序占用内存太大.
+[reason][EN]:Memory leak. Large program.
+[handle][CN]: 优化程序
+[handle][EN]:Check the program
+[level]:Warning
+[response][00]:00
+[led][00]:00
+
+################
+[code]:0x0013
+[brief][CN]:磁盘容量不足(小于500M)
+[brief][EN]:Disk usage over range
+[reason][CN]:磁盘中存储的文件过多.
+[reason][EN]:Too many disk files.
+[handle][CN]:清理不需要的文件
+[handle][EN]:Clean the files
+[level]:Warning
+[response][00]:00
+[led][00]:00
+
+################
+[code]:0x0014
+[brief][CN]:CAN心跳没有返回(设备掉线).
+[brief][EN]:CAN can not receive heart beat
+[reason][CN]:CAN线松动,或设备没有返回心跳
+[reason][EN]:CAN line is disconnected. The MRQ is not responsible.
+[handle][CN]:检查CAN线,或检查MRQ是否运行正常
+[handle][EN]:Check the CAN line Check the MRQ
+[level]:Error
+[response][00]:00
+[led][00]:00
+
+################
+[code]:0x0020
+[brief][CN]:需要归基准点(需要回零位)(目前T4中没有)
+[brief][EN]:Need to tune the zero
+[reason][CN]:机器人启动后,需要先回零点
+[reason][EN]:Device is need to zero after power on.
+[handle][CN]:回零
+[handle][EN]:Zero the device
+[level]:Error
+[response][00]:00
+[led][00]:00
+
+################
+[code]:0x0021
+[brief][CN]:末端执行器限位挡片被挡住(初始位置不正常)
+[brief][EN]:Invalid terminal position
+[reason][CN]:
+[reason][EN]:
+[handle][CN]:手动操作
+[handle][EN]:Manual move the terminal
+[level]:Error
+[response][00]:00
+[led][00]:00
+
+################
+[code]:0x0023
+[brief][CN]:MRH-T固件与MRQ固件不匹配
+[brief][EN]:MRH-T and MRQ firmware mismatched
+[reason][CN]:MRH-T固件与MRQ固件不匹配
+[reason][EN]:The firmwares of MRH-T and MRQ are mismatched.
+[handle][CN]:联系MEGAROBO客服,获取正确的固件
+[handle][EN]:Call MEGAROBO to get firmware
+[level]:Error
+[response][00]:00
+[led][00]:00
+
+################
+[code]:0x0024
+[brief][CN]:无效的指令编号(指令编号超出范围)
+[brief][EN]:Invalid command number
+[reason][CN]:指令编号超出设定范围
+[reason][EN]:The command number is over range.
+[handle][CN]:
+[handle][EN]:
+[level]:Error
+[response][11]:11
+[led][00]:00
+
+################
+[code]:0x0028
+[brief][CN]:因紧急停止开关,导致运动停止.(启用外部停止)
+[brief][EN]:Stoped on emergency
+[reason][CN]:使用外部急停,停止了当前运行
+[reason][EN]:Stoped by the external emergency stop event.
+[handle][CN]:
+[handle][EN]:
+[level]:Warning
+[response][00]:00
+[led][00]:00
+
+################
+[code]:0x0029
+[brief][CN]:使用网络控制时出现连接错误.
+[brief][EN]:Error in LAN controlling
+[reason][CN]:网络发送失败.
+[reason][EN]:LAN send fail
+[handle][CN]:
+[handle][EN]:
+[level]:Error
+[response][00]:00
+[led][00]:00
+
+################
+[code]:0x002A
+[brief][CN]:写入或读取诊断存储器时错误
+[brief][EN]:Error in diagnosis reading/writing
+[reason][CN]:程序写入失败.
+[reason][EN]:Program write fail
+[handle][CN]:联系客服
+[handle][EN]:Call MEGAROBO
+[level]:Error
+[response][00]:00
+[led][00]:00
+
+################
+[code]:0xFF01
+[brief][CN]:开机自检主时钟异常
+[brief][EN]:Clock fails on startup
+[reason][CN]:石英晶振不起振
+[reason][EN]:Oscillator can not work
+[handle][CN]:联系客服
+[handle][EN]:Call MEGAROBO
+[level]:Error
+[response][00]:00
+[led][11]:11
+
+################
+[code]:0xFF03
+[brief][CN]:开机自检FPGA异常
+[brief][EN]:FPGA fails on starupt
+[reason][CN]:1.FPGA程序加载不正确 2.FPGA时钟异常
+[reason][EN]:1. PFGA program fail 2. FPGA clock broken
+[handle][CN]:重新上电，无效联系客服
+[handle][EN]:Restart Call MEGAROBO
+[level]:Error
+[response][00]:00
+[led][11]:11
+
+################
+[code]:0xFF05
+[brief][CN]:开机自检EEPROM异常
+[brief][EN]:EEPROM fails on startup
+[reason][CN]:1.EEPROM内部损坏 2.EEPROM受干扰数据丢失
+[reason][EN]:1. EEPROM broken 2. EEPROM lose data
+[handle][CN]:重新下载参数，无效联系客服
+[handle][EN]:Rewrite Call MEGAROBO
+[detail1][0]:module1
+[detail1][1]:module2
+[detail1][2]:module3
+[detail1][3]:module4
+[detail1][4]:module5
+[detail1][5]:module6
+[detail1][6]:module7
+[detail1][7]:module8
+[detail1][8]:module9
+[detail1][9]:module10
+[detail1][10]:module11
+[detail1][11]:module12
+[detail1][12]:module13
+[level]:Error
+[response][00]:00
+[led][11]:11
+
+################
+[code]:0xFF06
+[brief][CN]:开机自检NandFlash异常
+[brief][EN]:NAND fails on startup
+[reason][CN]:1.NandFlash内部损坏 2.NandFlash受干扰数据丢失
+[reason][EN]:1. NAND broken 2. NAND lose data
+[handle][CN]:重新下载参数，无效联系客服
+[handle][EN]:Rewrite Call MEGAROBO
+[level]:Error
+[response][00]:00
+[led][11]:11
+
+################
+[code]:0xFF08
+[brief][CN]:开机自检TMC262步进芯片异常
+[brief][EN]:Driver chips fail on startup
+[reason][CN]:TMC262芯片内部损坏
+[reason][EN]:TMC262 borken
+[handle][CN]:联系客服
+[handle][EN]:Call MEGAROBO
+[detail1][0]:Channel1
+[detail1][1]:Channel2
+[detail1][2]:Channel3
+[detail1][3]:Channel4
+[detail1][4]:Channel5
+[level]:Error
+[response][00]:00
+[led][11]:11
+
+################
+[code]:0xFF0A
+[brief][CN]:开机自检电容编码器异常
+[brief][EN]:Encoder fali on startup
+[reason][CN]:电容编码器内部损坏
+[reason][EN]:Encoder borken
+[handle][CN]:联系客服
+[handle][EN]:Call MEGAROBO
+[detail1][0]:Channel1
+[detail1][1]:Channel2
+[detail1][2]:Channel3
+[detail1][3]:Channel4
+[level]:Error
+[response][00]:00
+[led][11]:11
+
+################
+[code]:0xFF0B
+[brief][CN]:开机自检角度传感器异常
+[brief][EN]:Angle sensor fails on startup
+[reason][CN]:角度传感器内部损坏
+[reason][EN]:Angle sensor broken
+[handle][CN]:联系客服
+[handle][EN]:Call MEGAROBO
+[detail1][0]:Channel1
+[detail1][1]:Channel2
+[detail1][2]:Channel3
+[detail1][3]:Channel4
+[level]:Error
+[response][00]:00
+[led][11]:11
+
+################
+[code]:0xFF0C
+[brief][CN]:开机自检测距传感器异常
+[brief][EN]:Distance sensor fails on startup
+[reason][CN]:测距传感器内部损坏
+[reason][EN]:Distance sensor broken
+[handle][CN]:联系客服
+[handle][EN]:Call MEGAROBO
+[detail1][0]:Channel1
+[detail1][1]:Channel2
+[detail1][2]:Channel3
+[detail1][3]:Channel4
+[level]:Error
+[response][00]:00
+[led][11]:11
+
+################
+[code]:0xFF0D
+[brief][CN]:开机自检温度传感器异常
+[brief][EN]:Temperature sensor fails on startup
+[reason][CN]:温度传感器内部损坏
+[reason][EN]:Temperature sensor borken
+[handle][CN]:联系客服
+[handle][EN]:Call MEGAROBO
+[level]:Error
+[response][00]:00
+[led][11]:11
+
+################
+[code]:0xFF0E
+[brief][CN]:开机自检湿度传感器异常
+[brief][EN]:Humidity sensor fails on startup
+[reason][CN]:湿度传感器内部损坏
+[reason][EN]:Humidity sensor borken
+[handle][CN]:联系客服
+[handle][EN]:Call MEGAROBO
+[level]:Error
+[response][00]:00
+[led][11]:11
+
+################
+[code]:0xFF20
+[brief][CN]:EEPROM存储结构体写失败
+[brief][EN]:EEPROM fails to write
+[reason][CN]:1.EEPROM时序被打乱 2.EEPROM受干扰数据丢失
+[reason][EN]:1. EEPROM broken 2. EEPROM lose data
+[handle][CN]:重新下载参数，无效联系客服
+[handle][EN]:Rewrite Call MEGAROBO
+[detail1][0]:module1
+[detail1][1]:module2
+[detail1][2]:module3
+[detail1][3]:module4
+[detail1][4]:module5
+[detail1][5]:module6
+[detail1][6]:module7
+[detail1][7]:module8
+[detail1][8]:module9
+[detail1][9]:module10
+[detail1][10]:module11
+[detail1][11]:module12
+[detail1][12]:module13
+[level]:Error
+[response][00]:00
+[led][11]:11
+
+################
+[code]:0xFF21
+[brief][CN]:EEPROM存储结构体读失败
+[brief][EN]:EEPROM fails to read
+[reason][CN]:1.EEPROM时序被打乱 2.EEPROM受干扰数据丢失
+[reason][EN]:1. EEPROM broken 2. EEPROM lose data
+[handle][CN]:重新下载参数，无效联系客服
+[handle][EN]:Rewrite Call MEGAROBO
+[detail1][0]:module1
+[detail1][1]:module2
+[detail1][2]:module3
+[detail1][3]:module4
+[detail1][4]:module5
+[detail1][5]:module6
+[detail1][6]:module7
+[detail1][7]:module8
+[detail1][8]:module9
+[detail1][9]:module10
+[detail1][10]:module11
+[detail1][11]:module12
+[detail1][12]:module13
+[level]:Error
+[response][00]:00
+[led][11]:11
+
+################
+[code]:0xFF22
+[brief][CN]:角度传感器数据异常
+[brief][EN]:Invalid angle sensor's data
+[reason][CN]:1.角度传感器内部损坏 2.角度传感器受干扰通信异常
+[reason][EN]:1. Angle sensor broken 2. Angle sensor communication fail
+[handle][CN]:联系客服
+[handle][EN]:Call MEGAROBO
+[detail1][0]:sensor1
+[detail1][1]:sensor2
+[detail1][2]:sensor3
+[detail1][3]:sensor4
+[level]:Error
+[response][00]:00
+[led][11]:11
+
+################
+[code]:0xFF23
+[brief][CN]:测距传感器数据异常
+[brief][EN]:Invalid distance sensor's data
+[reason][CN]:1.测距传感器内部损坏 2.测距传感器受干扰通信异常
+[reason][EN]:1. Distance sensor broken 2. Distance sensor communication fail
+[handle][CN]:联系客服
+[handle][EN]:Call MEGAROBO
+[detail1][0]:sensor1
+[detail1][1]:sensor2
+[detail1][2]:sensor3
+[detail1][3]:sensor4
+[detail2][0]:level1
+[detail2][1]:level2
+[detail2][2]:level3
+[detail2][3]:level4
+[level]:Error
+[response][00]:00
+[led][11]:11
+
+################
+[code]:0xFF24
+[brief][CN]:温度传感器数据异常
+[brief][EN]:Invalid temperature sensor's data
+[reason][CN]:1.温度传感器内部损坏 2.温度传感器受干扰通信异常
+[reason][EN]:1. Temperature sensor broken 2. Temperature sensor communication fail
+[handle][CN]:联系客服
+[handle][EN]:Call MEGAROBO
+[level]:Error
+[response][00]:00
+[led][11]:11
+
+################
+[code]:0xFF25
+[brief][CN]:湿度传感器数据异常
+[brief][EN]:Invalid humidity sensor's data
+[reason][CN]:1.湿度传感器内部损坏 2.湿度传感器受干扰通信异常
+[reason][EN]:1. Humidity sensor broken 2. Humidity sensor communication fail
+[handle][CN]:联系客服
+[handle][EN]:Call MEGAROBO
+[level]:Error
+[response][00]:00
+[led][11]:11
+
+################
+[code]:0xFF30
+[brief][CN]:电机丢步告警
+[brief][EN]:Step motor lose step
+[reason][CN]:1.负载扭矩过大 2.加速度过大
+[reason][EN]:1. Load is too high 2. Acceleration is over range
+[handle][CN]:1.减小负载 2.重新规划PVT
+[handle][EN]:1. Lose a few load 2. Slow down
+[detail1][0]:Channel1
+[detail1][1]:Channel2
+[detail1][2]:Channel3
+[detail1][3]:Channel4
+[detail1][4]:Channel5
+[level]:Warning
+[response][00]:00
+[led][11]:11
+
+################
+[code]:0xFF31
+[brief][CN]:电容编码器限位告警
+[brief][EN]:Encoder over soft limit
+[reason][CN]:超出限位
+[reason][EN]:Position is over range
+[handle][CN]:设备回零
+[handle][EN]:Zero the device
+[detail1][0]:encoder1
+[detail1][1]:encoder2
+[detail1][2]:encoder3
+[detail1][3]:encoder4
+[level]:Warning
+[response][00]:00
+[led][11]:11
+
+################
+[code]:0xFF32
+[brief][CN]:测距传感器限位告警
+[brief][EN]:Distance over limit
+[reason][CN]:超出限位
+[reason][EN]:Distance is over range
+[handle][CN]:设备回零
+[handle][EN]:Zero the device
+[detail1][0]:sensor1
+[detail1][1]:sensor2
+[detail1][2]:sensor3
+[detail1][3]:sensor4
+[level]:Warning
+[response][00]:00
+[led][11]:11
+
+################
+[code]:0xFF33
+[brief][CN]:温度传感器过温告警
+[brief][EN]:Temperature over limit
+[reason][CN]:超出工作环境条件
+[reason][EN]:Environment 
+[handle][CN]:联系客服
+[handle][EN]:Call MEGAROBO
+[level]:Warning
+[response][00]:00
+[led][11]:11
+
+################
+[code]:0xFF34
+[brief][CN]:湿度传感器过湿告警
+[brief][EN]:Humidity over range
+[reason][CN]:超出工作环境条件
+[reason][EN]:Environment 
+[handle][CN]:联系客服
+[handle][EN]:Call MEGAROBO
+[level]:Warning
+[response][00]:00
+[led][11]:11
+
+################
+[code]:0xFF35
+[brief][CN]:爪子限位开关告警
+[brief][EN]:Terminal position over range
+[reason][CN]:超出限位
+[reason][EN]:Position is over range
+[handle][CN]:设备回零
+[handle][EN]:Zero the device
+[level]:Warning
+[response][00]:00
+[led][11]:11
+

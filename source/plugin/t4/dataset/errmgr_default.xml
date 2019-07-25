@@ -1,0 +1,557 @@
+<event>
+<item>
+<mNr>1</mNr>
+<mErr>Software error</mErr>
+<mEventType>1</mEventType>
+<mbErrorAble>1</mbErrorAble>
+<mbWarnAble>0</mbWarnAble>
+<mbInfoAble>0</mbInfoAble>
+<mActionList>Free-wheeling;</mActionList>
+<mAction>Free-wheeling</mAction>
+<mbOutputAble>0</mbOutputAble>
+<mbOutput>0</mbOutput>
+<mbSaveAble>1</mbSaveAble>
+<mbSaveDiagnosis>1</mbSaveDiagnosis>
+</item>
+<item>
+<mNr>2</mNr>
+<mErr>Default parameter file invalid</mErr>
+<mEventType>1</mEventType>
+<mbErrorAble>1</mbErrorAble>
+<mbWarnAble>0</mbWarnAble>
+<mbInfoAble>0</mbInfoAble>
+<mActionList>Free-wheeling;</mActionList>
+<mAction>Free-wheeling</mAction>
+<mbOutputAble>0</mbOutputAble>
+<mbOutput>0</mbOutput>
+<mbSaveAble>1</mbSaveAble>
+<mbSaveDiagnosis>1</mbSaveDiagnosis>
+</item>
+<item>
+<mNr>4</mNr>
+<mErr>Non-permitted hardware</mErr>
+<mEventType>1</mEventType>
+<mbErrorAble>1</mbErrorAble>
+<mbWarnAble>0</mbWarnAble>
+<mbInfoAble>0</mbInfoAble>
+<mActionList>Free-wheeling;</mActionList>
+<mAction>Free-wheeling</mAction>
+<mbOutputAble>0</mbOutputAble>
+<mbOutput>0</mbOutput>
+<mbSaveAble>1</mbSaveAble>
+<mbSaveDiagnosis>1</mbSaveDiagnosis>
+</item>
+<item>
+<mNr>5</mNr>
+<mErr>Zero angle determination</mErr>
+<mEventType>1</mEventType>
+<mbErrorAble>1</mbErrorAble>
+<mbWarnAble>0</mbWarnAble>
+<mbInfoAble>0</mbInfoAble>
+<mActionList>Free-wheeling;</mActionList>
+<mAction>Free-wheeling</mAction>
+<mbOutputAble>0</mbOutputAble>
+<mbOutput>0</mbOutput>
+<mbSaveAble>1</mbSaveAble>
+<mbSaveDiagnosis>1</mbSaveDiagnosis>
+</item>
+<item>
+<mNr>6</mNr>
+<mErr>Encoder</mErr>
+<mEventType>1</mEventType>
+<mbErrorAble>1</mbErrorAble>
+<mbWarnAble>0</mbWarnAble>
+<mbInfoAble>0</mbInfoAble>
+<mActionList>Free-wheeling;</mActionList>
+<mAction>Free-wheeling</mAction>
+<mbOutputAble>0</mbOutputAble>
+<mbOutput>0</mbOutput>
+<mbSaveAble>1</mbSaveAble>
+<mbSaveDiagnosis>1</mbSaveDiagnosis>
+</item>
+<item>
+<mNr>11</mNr>
+<mErr>Parameter file invalid</mErr>
+<mEventType>1</mEventType>
+<mbErrorAble>1</mbErrorAble>
+<mbWarnAble>0</mbWarnAble>
+<mbInfoAble>0</mbInfoAble>
+<mActionList>Free-wheeling;</mActionList>
+<mAction>Free-wheeling</mAction>
+<mbOutputAble>0</mbOutputAble>
+<mbOutput>0</mbOutput>
+<mbSaveAble>1</mbSaveAble>
+<mbSaveDiagnosis>1</mbSaveDiagnosis>
+</item>
+<item>
+<mNr>12</mNr>
+<mErr>Firmware update execution error</mErr>
+<mEventType>1</mEventType>
+<mbErrorAble>1</mbErrorAble>
+<mbWarnAble>0</mbWarnAble>
+<mbInfoAble>0</mbInfoAble>
+<mActionList>Free-wheeling;</mActionList>
+<mAction>Free-wheeling</mAction>
+<mbOutputAble>0</mbOutputAble>
+<mbOutput>0</mbOutput>
+<mbSaveAble>1</mbSaveAble>
+<mbSaveDiagnosis>1</mbSaveDiagnosis>
+</item>
+<item>
+<mNr>14</mNr>
+<mErr>I2t malfunction motor</mErr>
+<mEventType>1</mEventType>
+<mbErrorAble>1</mbErrorAble>
+<mbWarnAble>0</mbWarnAble>
+<mbInfoAble>0</mbInfoAble>
+<mActionList>QS deceleration;Record deceleration;</mActionList>
+<mAction>QS deceleration</mAction>
+<mbOutputAble>0</mbOutputAble>
+<mbOutput>0</mbOutput>
+<mbSaveAble>1</mbSaveAble>
+<mbSaveDiagnosis>1</mbSaveDiagnosis>
+</item>
+<item>
+<mNr>17</mNr>
+<mErr>Softwarelimit positive</mErr>
+<mEventType>1</mEventType>
+<mbErrorAble>1</mbErrorAble>
+<mbWarnAble>0</mbWarnAble>
+<mbInfoAble>0</mbInfoAble>
+<mActionList>Free-wheeling;QS deceleration;Record deceleration;</mActionList>
+<mAction>Free-wheeling</mAction>
+<mbOutputAble>1</mbOutputAble>
+<mbOutput>0</mbOutput>
+<mbSaveAble>1</mbSaveAble>
+<mbSaveDiagnosis>1</mbSaveDiagnosis>
+</item>
+<item>
+<mNr>18</mNr>
+<mErr>Softwarelimit negative</mErr>
+<mEventType>1</mEventType>
+<mbErrorAble>1</mbErrorAble>
+<mbWarnAble>0</mbWarnAble>
+<mbInfoAble>0</mbInfoAble>
+<mActionList>Free-wheeling;QS deceleration;Record deceleration;</mActionList>
+<mAction>Free-wheeling</mAction>
+<mbOutputAble>1</mbOutputAble>
+<mbOutput>0</mbOutput>
+<mbSaveAble>1</mbSaveAble>
+<mbSaveDiagnosis>1</mbSaveDiagnosis>
+</item>
+<item>
+<mNr>23</mNr>
+<mErr>Logic voltage exceeded</mErr>
+<mEventType>1</mEventType>
+<mbErrorAble>1</mbErrorAble>
+<mbWarnAble>0</mbWarnAble>
+<mbInfoAble>0</mbInfoAble>
+<mActionList>Free-wheeling;QS deceleration;</mActionList>
+<mAction>Free-wheeling</mAction>
+<mbOutputAble>0</mbOutputAble>
+<mbOutput>0</mbOutput>
+<mbSaveAble>1</mbSaveAble>
+<mbSaveDiagnosis>1</mbSaveDiagnosis>
+</item>
+<item>
+<mNr>24</mNr>
+<mErr>Logic voltage too low</mErr>
+<mEventType>1</mEventType>
+<mbErrorAble>1</mbErrorAble>
+<mbWarnAble>0</mbWarnAble>
+<mbInfoAble>0</mbInfoAble>
+<mActionList>Free-wheeling;</mActionList>
+<mAction>Free-wheeling</mAction>
+<mbOutputAble>0</mbOutputAble>
+<mbOutput>0</mbOutput>
+<mbSaveAble>1</mbSaveAble>
+<mbSaveDiagnosis>1</mbSaveDiagnosis>
+</item>
+<item>
+<mNr>25</mNr>
+<mErr>Temperature LM-CPU</mErr>
+<mEventType>1</mEventType>
+<mbErrorAble>1</mbErrorAble>
+<mbWarnAble>0</mbWarnAble>
+<mbInfoAble>0</mbInfoAble>
+<mActionList>Free-wheeling;QS deceleration;</mActionList>
+<mAction>Free-wheeling</mAction>
+<mbOutputAble>0</mbOutputAble>
+<mbOutput>0</mbOutput>
+<mbSaveAble>1</mbSaveAble>
+<mbSaveDiagnosis>1</mbSaveDiagnosis>
+</item>
+<item>
+<mNr>26</mNr>
+<mErr>Intermediate circuit voltage exceede</mErr>
+<mEventType>1</mEventType>
+<mbErrorAble>1</mbErrorAble>
+<mbWarnAble>0</mbWarnAble>
+<mbInfoAble>0</mbInfoAble>
+<mActionList>Free-wheeling;QS deceleration;</mActionList>
+<mAction>Free-wheeling</mAction>
+<mbOutputAble>0</mbOutputAble>
+<mbOutput>0</mbOutput>
+<mbSaveAble>1</mbSaveAble>
+<mbSaveDiagnosis>1</mbSaveDiagnosis>
+</item>
+<item>
+<mNr>27</mNr>
+<mErr>Intermediate circuit voltage too low</mErr>
+<mEventType>1</mEventType>
+<mbErrorAble>1</mbErrorAble>
+<mbWarnAble>1</mbWarnAble>
+<mbInfoAble>0</mbInfoAble>
+<mActionList>Free-wheeling;</mActionList>
+<mAction>Free-wheeling</mAction>
+<mbOutputAble>0</mbOutputAble>
+<mbOutput>0</mbOutput>
+<mbSaveAble>1</mbSaveAble>
+<mbSaveDiagnosis>1</mbSaveDiagnosis>
+</item>
+<item>
+<mNr>28</mNr>
+<mErr>CAN Node Guarding, FB has overall control</mErr>
+<mEventType>1</mEventType>
+<mbErrorAble>1</mbErrorAble>
+<mbWarnAble>0</mbWarnAble>
+<mbInfoAble>0</mbInfoAble>
+<mActionList>QS deceleration;Record deceleration;</mActionList>
+<mAction>QS deceleration</mAction>
+<mbOutputAble>1</mbOutputAble>
+<mbOutput>0</mbOutput>
+<mbSaveAble>1</mbSaveAble>
+<mbSaveDiagnosis>1</mbSaveDiagnosis>
+</item>
+<item>
+<mNr>29</mNr>
+<mErr>CAN bus communication stopped by master, FB has overall control</mErr>
+<mEventType>1</mEventType>
+<mbErrorAble>1</mbErrorAble>
+<mbWarnAble>0</mbWarnAble>
+<mbInfoAble>0</mbInfoAble>
+<mActionList>QS deceleration;Record deceleration;</mActionList>
+<mAction>QS deceleration</mAction>
+<mbOutputAble>1</mbOutputAble>
+<mbOutput>0</mbOutput>
+<mbSaveAble>1</mbSaveAble>
+<mbSaveDiagnosis>1</mbSaveDiagnosis>
+</item>
+<item>
+<mNr>37</mNr>
+<mErr>Path calculation</mErr>
+<mEventType>1</mEventType>
+<mbErrorAble>1</mbErrorAble>
+<mbWarnAble>0</mbWarnAble>
+<mbInfoAble>0</mbInfoAble>
+<mActionList>Free-wheeling;</mActionList>
+<mAction>Free-wheeling</mAction>
+<mbOutputAble>0</mbOutputAble>
+<mbOutput>0</mbOutput>
+<mbSaveAble>1</mbSaveAble>
+<mbSaveDiagnosis>1</mbSaveDiagnosis>
+</item>
+<item>
+<mNr>38</mNr>
+<mErr>CAN fieldbus parameters missing</mErr>
+<mEventType>1</mEventType>
+<mbErrorAble>1</mbErrorAble>
+<mbWarnAble>0</mbWarnAble>
+<mbInfoAble>0</mbInfoAble>
+<mActionList>QS deceleration;</mActionList>
+<mAction>QS deceleration</mAction>
+<mbOutputAble>1</mbOutputAble>
+<mbOutput>0</mbOutput>
+<mbSaveAble>1</mbSaveAble>
+<mbSaveDiagnosis>1</mbSaveDiagnosis>
+</item>
+<item>
+<mNr>39</mNr>
+<mErr>Save parameters</mErr>
+<mEventType>1</mEventType>
+<mbErrorAble>1</mbErrorAble>
+<mbWarnAble>0</mbWarnAble>
+<mbInfoAble>0</mbInfoAble>
+<mActionList>Finish Record;</mActionList>
+<mAction>Finish Record</mAction>
+<mbOutputAble>0</mbOutputAble>
+<mbOutput>0</mbOutput>
+<mbSaveAble>1</mbSaveAble>
+<mbSaveDiagnosis>1</mbSaveDiagnosis>
+</item>
+<item>
+<mNr>40</mNr>
+<mErr>Homing required</mErr>
+<mEventType>1</mEventType>
+<mbErrorAble>1</mbErrorAble>
+<mbWarnAble>0</mbWarnAble>
+<mbInfoAble>0</mbInfoAble>
+<mActionList>QS deceleration;Record deceleration;Finish Record;</mActionList>
+<mAction>QS deceleration</mAction>
+<mbOutputAble>1</mbOutputAble>
+<mbOutput>0</mbOutput>
+<mbSaveAble>1</mbSaveAble>
+<mbSaveDiagnosis>1</mbSaveDiagnosis>
+</item>
+<item>
+<mNr>41</mNr>
+<mErr>Target position behind negative software end position</mErr>
+<mEventType>1</mEventType>
+<mbErrorAble>1</mbErrorAble>
+<mbWarnAble>0</mbWarnAble>
+<mbInfoAble>0</mbInfoAble>
+<mActionList>QS deceleration;Record deceleration;</mActionList>
+<mAction>QS deceleration</mAction>
+<mbOutputAble>1</mbOutputAble>
+<mbOutput>0</mbOutput>
+<mbSaveAble>1</mbSaveAble>
+<mbSaveDiagnosis>1</mbSaveDiagnosis>
+</item>
+<item>
+<mNr>42</mNr>
+<mErr>Target position behind positive software end position</mErr>
+<mEventType>1</mEventType>
+<mbErrorAble>1</mbErrorAble>
+<mbWarnAble>0</mbWarnAble>
+<mbInfoAble>0</mbInfoAble>
+<mActionList>QS deceleration;Record deceleration;</mActionList>
+<mAction>QS deceleration</mAction>
+<mbOutputAble>1</mbOutputAble>
+<mbOutput>0</mbOutput>
+<mbSaveAble>1</mbSaveAble>
+<mbSaveDiagnosis>1</mbSaveDiagnosis>
+</item>
+<item>
+<mNr>43</mNr>
+<mErr>Firmware update, invalid firmware</mErr>
+<mEventType>1</mEventType>
+<mbErrorAble>1</mbErrorAble>
+<mbWarnAble>1</mbWarnAble>
+<mbInfoAble>0</mbInfoAble>
+<mActionList>Free-wheeling;</mActionList>
+<mAction>Free-wheeling</mAction>
+<mbOutputAble>0</mbOutputAble>
+<mbOutput>0</mbOutput>
+<mbSaveAble>1</mbSaveAble>
+<mbSaveDiagnosis>1</mbSaveDiagnosis>
+</item>
+<item>
+<mNr>44</mNr>
+<mErr>Incorrect record number</mErr>
+<mEventType>1</mEventType>
+<mbErrorAble>1</mbErrorAble>
+<mbWarnAble>0</mbWarnAble>
+<mbInfoAble>0</mbInfoAble>
+<mActionList>Finish Record;</mActionList>
+<mAction>Finish Record</mAction>
+<mbOutputAble>0</mbOutputAble>
+<mbOutput>0</mbOutput>
+<mbSaveAble>1</mbSaveAble>
+<mbSaveDiagnosis>1</mbSaveDiagnosis>
+</item>
+<item>
+<mNr>45</mNr>
+<mErr>I2t warning motor</mErr>
+<mEventType>2</mEventType>
+<mbErrorAble>0</mbErrorAble>
+<mbWarnAble>1</mbWarnAble>
+<mbInfoAble>1</mbInfoAble>
+<mActionList></mActionList>
+<mbOutputAble>0</mbOutputAble>
+<mbOutput>0</mbOutput>
+<mbSaveAble>1</mbSaveAble>
+<mbSaveDiagnosis>1</mbSaveDiagnosis>
+</item>
+<item>
+<mNr>47</mNr>
+<mErr>Following error</mErr>
+<mEventType>1</mEventType>
+<mbErrorAble>1</mbErrorAble>
+<mbWarnAble>1</mbWarnAble>
+<mbInfoAble>1</mbInfoAble>
+<mActionList>QS deceleration;Record deceleration;</mActionList>
+<mAction>QS deceleration</mAction>
+<mbOutputAble>1</mbOutputAble>
+<mbOutput>0</mbOutput>
+<mbSaveAble>1</mbSaveAble>
+<mbSaveDiagnosis>1</mbSaveDiagnosis>
+</item>
+<item>
+<mNr>48</mNr>
+<mErr>Extern stop</mErr>
+<mEventType>1</mEventType>
+<mbErrorAble>1</mbErrorAble>
+<mbWarnAble>0</mbWarnAble>
+<mbInfoAble>0</mbInfoAble>
+<mActionList>QS deceleration;</mActionList>
+<mAction>QS deceleration</mAction>
+<mbOutputAble>1</mbOutputAble>
+<mbOutput>0</mbOutput>
+<mbSaveAble>1</mbSaveAble>
+<mbSaveDiagnosis>1</mbSaveDiagnosis>
+</item>
+<item>
+<mNr>49</mNr>
+<mErr>CVE connection</mErr>
+<mEventType>1</mEventType>
+<mbErrorAble>1</mbErrorAble>
+<mbWarnAble>0</mbWarnAble>
+<mbInfoAble>0</mbInfoAble>
+<mActionList>QS deceleration;Record deceleration;Finish Record;</mActionList>
+<mAction>QS deceleration</mAction>
+<mbOutputAble>1</mbOutputAble>
+<mbOutput>0</mbOutput>
+<mbSaveAble>1</mbSaveAble>
+<mbSaveDiagnosis>1</mbSaveDiagnosis>
+</item>
+<item>
+<mNr>50</mNr>
+<mErr>FCT connection</mErr>
+<mEventType>1</mEventType>
+<mbErrorAble>1</mbErrorAble>
+<mbWarnAble>1</mbWarnAble>
+<mbInfoAble>1</mbInfoAble>
+<mActionList>QS deceleration;Record deceleration;Finish Record;</mActionList>
+<mAction>QS deceleration</mAction>
+<mbOutputAble>1</mbOutputAble>
+<mbOutput>0</mbOutput>
+<mbSaveAble>1</mbSaveAble>
+<mbSaveDiagnosis>1</mbSaveDiagnosis>
+</item>
+<item>
+<mNr>52</mNr>
+<mErr>Torque Off (TO)</mErr>
+<mEventType>1</mEventType>
+<mbErrorAble>1</mbErrorAble>
+<mbWarnAble>0</mbWarnAble>
+<mbInfoAble>0</mbInfoAble>
+<mActionList>Free-wheeling;</mActionList>
+<mAction>Free-wheeling</mAction>
+<mbOutputAble>0</mbOutputAble>
+<mbOutput>0</mbOutput>
+<mbSaveAble>1</mbSaveAble>
+<mbSaveDiagnosis>1</mbSaveDiagnosis>
+</item>
+<item>
+<mNr>53</mNr>
+<mErr>CAN Node Guarding, warning, FB does not have overall control</mErr>
+<mEventType>2</mEventType>
+<mbErrorAble>0</mbErrorAble>
+<mbWarnAble>1</mbWarnAble>
+<mbInfoAble>1</mbInfoAble>
+<mActionList></mActionList>
+<mbOutputAble>0</mbOutputAble>
+<mbOutput>0</mbOutput>
+<mbSaveAble>1</mbSaveAble>
+<mbSaveDiagnosis>1</mbSaveDiagnosis>
+</item>
+<item>
+<mNr>54</mNr>
+<mErr>CAN bus communication stopped by master, warning, FB does not have overall control</mErr>
+<mEventType>2</mEventType>
+<mbErrorAble>0</mbErrorAble>
+<mbWarnAble>1</mbWarnAble>
+<mbInfoAble>1</mbInfoAble>
+<mActionList></mActionList>
+<mbOutputAble>0</mbOutputAble>
+<mbOutput>0</mbOutput>
+<mbSaveAble>1</mbSaveAble>
+<mbSaveDiagnosis>1</mbSaveDiagnosis>
+</item>
+<item>
+<mNr>55</mNr>
+<mErr>Standstill monitoring</mErr>
+<mEventType>2</mEventType>
+<mbErrorAble>0</mbErrorAble>
+<mbWarnAble>1</mbWarnAble>
+<mbInfoAble>1</mbInfoAble>
+<mActionList></mActionList>
+<mbOutputAble>0</mbOutputAble>
+<mbOutput>0</mbOutput>
+<mbSaveAble>1</mbSaveAble>
+<mbSaveDiagnosis>1</mbSaveDiagnosis>
+</item>
+<item>
+<mNr>56</mNr>
+<mErr>Parameter file access</mErr>
+<mEventType>1</mEventType>
+<mbErrorAble>1</mbErrorAble>
+<mbWarnAble>0</mbWarnAble>
+<mbInfoAble>0</mbInfoAble>
+<mActionList>Finish Record;</mActionList>
+<mAction>Finish Record</mAction>
+<mbOutputAble>0</mbOutputAble>
+<mbOutput>0</mbOutput>
+<mbSaveAble>1</mbSaveAble>
+<mbSaveDiagnosis>1</mbSaveDiagnosis>
+</item>
+<item>
+<mNr>58</mNr>
+<mErr>Homing Timeout</mErr>
+<mEventType>1</mEventType>
+<mbErrorAble>1</mbErrorAble>
+<mbWarnAble>0</mbWarnAble>
+<mbInfoAble>0</mbInfoAble>
+<mActionList>QS deceleration;Record deceleration;</mActionList>
+<mAction>QS deceleration</mAction>
+<mbOutputAble>1</mbOutputAble>
+<mbOutput>0</mbOutput>
+<mbSaveAble>1</mbSaveAble>
+<mbSaveDiagnosis>1</mbSaveDiagnosis>
+</item>
+<item>
+<mNr>61</mNr>
+<mErr>Start-up event</mErr>
+<mEventType>3</mEventType>
+<mbErrorAble>0</mbErrorAble>
+<mbWarnAble>0</mbWarnAble>
+<mbInfoAble>1</mbInfoAble>
+<mActionList></mActionList>
+<mbOutputAble>0</mbOutputAble>
+<mbOutput>0</mbOutput>
+<mbSaveAble>1</mbSaveAble>
+<mbSaveDiagnosis>1</mbSaveDiagnosis>
+</item>
+<item>
+<mNr>62</mNr>
+<mErr>Diagnostic memory</mErr>
+<mEventType>1</mEventType>
+<mbErrorAble>1</mbErrorAble>
+<mbWarnAble>0</mbWarnAble>
+<mbInfoAble>0</mbInfoAble>
+<mActionList>Finish Record;</mActionList>
+<mAction>Finish Record</mAction>
+<mbOutputAble>0</mbOutputAble>
+<mbOutput>0</mbOutput>
+<mbSaveAble>1</mbSaveAble>
+<mbSaveDiagnosis>1</mbSaveDiagnosis>
+</item>
+<item>
+<mNr>63</mNr>
+<mErr>Record invalid</mErr>
+<mEventType>1</mEventType>
+<mbErrorAble>1</mbErrorAble>
+<mbWarnAble>0</mbWarnAble>
+<mbInfoAble>0</mbInfoAble>
+<mActionList>QS deceleration;Record deceleration;Finish Record;</mActionList>
+<mAction>QS deceleration</mAction>
+<mbOutputAble>1</mbOutputAble>
+<mbOutput>0</mbOutput>
+<mbSaveAble>1</mbSaveAble>
+<mbSaveDiagnosis>1</mbSaveDiagnosis>
+</item>
+<item>
+<mNr>65</mNr>
+<mErr>System reset</mErr>
+<mEventType>1</mEventType>
+<mbErrorAble>1</mbErrorAble>
+<mbWarnAble>0</mbWarnAble>
+<mbInfoAble>0</mbInfoAble>
+<mActionList>Free-wheeling;</mActionList>
+<mAction>Free-wheeling</mAction>
+<mbOutputAble>0</mbOutputAble>
+<mbOutput>0</mbOutput>
+<mbSaveAble>1</mbSaveAble>
+<mbSaveDiagnosis>1</mbSaveDiagnosis>
+</item>
+</event>

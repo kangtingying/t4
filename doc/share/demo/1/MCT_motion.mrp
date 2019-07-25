@@ -1,0 +1,125 @@
+[MRX-T4]
+#! section0
+[section]
+[valid,id,type,x,y,z,w,h,v,mode,do,delay,percent,realW,realH,comment]
+1,1,PA,250,0,518,0,0,50,0,0,0,20,36,12,A
+#! section1
+[section]
+[valid,id,type,x,y,z,w,h,v,mode,do,delay,percent,realW,realH,comment]
+1,1,PA,123.106,153.57,321.496,0,0,50,0,0,0,20,36,12,B0
+#! section2
+[section]
+[valid,id,type,x,y,z,w,h,v,mode,do,delay,percent,realW,realH,comment]
+1,1,PA,123.106,153.57,224.757,0,30,50,0,0,0,20,36,12,B3
+#! section3
+[section]
+[valid,id,type,x,y,z,w,h,v,mode,do,delay,percent,realW,realH,comment]
+1,1,PA,123.106,153.57,321.496,0,-30,50,0,0,0,20,36,12,B5
+#! section4
+[section]
+[valid,id,type,x,y,z,w,h,v,mode,do,delay,percent,realW,realH,comment]
+1,1,PA,469.106,139.57,321.496,0,30,50,0,0,0,20,36,12,B-3
+#! section5
+[section]
+[valid,id,type,x,y,z,w,h,v,mode,do,delay,percent,realW,realH,comment]
+1,1,PA,469.106,139.57,223.496,0,-30,50,0,0,0,20,36,12,B-5
+#! section6
+[section]
+[valid,id,type,x,y,z,w,h,v,mode,do,delay,percent,realW,realH,comment]
+1,1,PA,469.106,139.57,321.496,0,30,50,0,0,0,20,36,12,C0
+#! section7
+[section]
+[valid,id,type,x,y,z,w,h,v,mode,do,delay,percent,realW,realH,comment]
+1,1,PA,479.106,-38.57,321.496,0,-30,50,0,0,0,20,36,12,C3
+#! section8
+[section]
+[valid,id,type,x,y,z,w,h,v,mode,do,delay,percent,realW,realH,comment]
+1,1,PA,479.106,-38.57,224.496,0,30,50,0,0,0,20,36,12,C5
+#! section9
+[section]
+[valid,id,type,x,y,z,w,h,v,mode,do,delay,percent,realW,realH,comment]
+1,1,PA,479.106,-38.57,321.496,0,-30,50,0,0,0,20,36,12,C-3
+#! section10
+[section]
+[valid,id,type,x,y,z,w,h,v,mode,do,delay,percent,realW,realH,comment]
+1,1,PA,432.106,47.57,321.496,0,30,50,0,0,0,20,36,12,C-5
+#! section11
+[section]
+[valid,id,type,x,y,z,w,h,v,mode,do,delay,percent,realW,realH,comment]
+1,1,PA,432.106,47.57,224.496,0,-30,50,0,0,0,20,36,12,D0
+#! section12
+[section]
+[valid,id,type,x,y,z,w,h,v,mode,do,delay,percent,realW,realH,comment]
+1,1,PA,432.106,47.57,321.496,0,30,50,0,0,0,20,36,12,D3
+#! section13
+[section]
+[valid,id,type,x,y,z,w,h,v,mode,do,delay,percent,realW,realH,comment]
+1,1,PA,331.106,47.57,321.496,0,-30,50,0,0,0,20,36,12,D5
+#! section14
+[section]
+[valid,id,type,x,y,z,w,h,v,mode,do,delay,percent,realW,realH,comment]
+1,1,PA,331.106,47.57,224.496,0,30,50,0,0,0,20,36,12,D-3
+#! section15
+[section]
+[valid,id,type,x,y,z,w,h,v,mode,do,delay,percent,realW,realH,comment]
+1,1,PA,331.106,47.57,321.496,0,-30,50,0,0,0,20,36,12,D-5
+#! section16
+[section]
+[valid,id,type,x,y,z,w,h,v,mode,do,delay,percent,realW,realH,comment]
+1,1,PA,277.106,-37.57,321.496,0,30,50,0,0,0,20,36,12,E0
+#! section17
+[section]
+[valid,id,type,x,y,z,w,h,v,mode,do,delay,percent,realW,realH,comment]
+1,1,PA,277.106,-37.57,224.496,0,-30,50,0,0,0,20,36,12,E3
+#! section18
+[section]
+[valid,id,type,x,y,z,w,h,v,mode,do,delay,percent,realW,realH,comment]
+1,1,PA,277.106,-37.57,321.496,0,30,50,0,0,0,20,36,12,E5
+#! section19
+[section]
+[valid,id,type,x,y,z,w,h,v,mode,do,delay,percent,realW,realH,comment]
+1,1,PA,326.106,-122.57,321.496,0,-30,50,0,0,0,20,36,12,E-3
+#! section20
+[section]
+[valid,id,type,x,y,z,w,h,v,mode,do,delay,percent,realW,realH,comment]
+1,1,PA,326.106,-122.57,224.496,0,30,50,0,0,0,20,36,12,E-5
+#! section21
+[section]
+[valid,id,type,x,y,z,w,h,v,mode,do,delay,percent,realW,realH,comment]
+1,1,PA,326.106,-122.57,321.496,0,-30,50,0,0,0,20,36,12,F0
+#! section22
+[section]
+[valid,id,type,x,y,z,w,h,v,mode,do,delay,percent,realW,realH,comment]
+1,1,PA,428.106,-122.57,321.496,0,30,50,0,0,0,20,36,12,F3
+#! section23
+[section]
+[valid,id,type,x,y,z,w,h,v,mode,do,delay,percent,realW,realH,comment]
+1,1,PA,428.106,-122.57,224.496,0,-30,50,0,0,0,20,36,12,F5
+#! section24
+[section]
+[valid,id,type,x,y,z,w,h,v,mode,do,delay,percent,realW,realH,comment]
+1,1,PA,428.106,-122.57,321.496,0,30,50,0,0,0,20,36,12,F-3
+#! section25
+[section]
+[valid,id,type,x,y,z,w,h,v,mode,do,delay,percent,realW,realH,comment]
+1,1,PA,452.106,-178.57,321.496,0,-30,50,0,0,0,20,36,12,F-5
+#! section26
+[section]
+[valid,id,type,x,y,z,w,h,v,mode,do,delay,percent,realW,realH,comment]
+1,1,PA,452.106,-178.57,219.496,0,30,50,0,0,0,20,36,12,G0
+#! section27
+[section]
+[valid,id,type,x,y,z,w,h,v,mode,do,delay,percent,realW,realH,comment]
+1,1,PA,452.106,-178.57,321.496,0,-30,50,0,0,0,20,36,12,G3
+#! section28
+[section]
+[valid,id,type,x,y,z,w,h,v,mode,do,delay,percent,realW,realH,comment]
+1,1,PA,84.106,-199.57,321.496,0,30,50,0,0,0,20,36,12,G5
+#! section29
+[section]
+[valid,id,type,x,y,z,w,h,v,mode,do,delay,percent,realW,realH,comment]
+1,1,PA,84.106,-199.57,224.496,0,-30,50,0,0,0,20,36,12,G-3
+#! section30
+[section]
+[valid,id,type,x,y,z,w,h,v,mode,do,delay,percent,realW,realH,comment]
+1,1,PA,250,0,518,0,0,5,0,0,0,2,3.6,1.2,G-5
